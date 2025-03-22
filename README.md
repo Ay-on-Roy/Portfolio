@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository! This project showcases my journey, skills, achievements, and projects in one cohesive space. It's designed to provide a comprehensive insight into my technical expertise, educational background, and extracurricular activities.
 
 ## 🔗 Live Demo
-Check out the live version of my portfolio [here](#).
+Check out the live version of my portfolio [here](https://ay-on-roy.github.io/Portfolio/).
 
 ---
 
