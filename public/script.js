@@ -112,7 +112,7 @@ const roles = ["I am a Programmer", "I am a Machine Learning Developer", "I am a
         let currentIndex = 0;
         for (let i = 1; i <= imageCount; i++) {
             const img = document.createElement('img');
-            img.src = `${imagePrefix}${i}.jpg`;
+            img.src = `/public/img/photography/${imagePrefix}${i}.jpg`;
             img.alt = `Photo ${i}`;
             img.className = 'slider-image hidden';
             if (i === 1) img.classList.remove('hidden');
