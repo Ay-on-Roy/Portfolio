@@ -49,7 +49,10 @@ Check out the live version of my portfolio [here](https://ay-on-roy.github.io/Po
 ---
 
 ## 📷 Preview
-*(Include screenshots or a GIF of your portfolio in action, if possible.)*
+![{620B2509-C278-4F3D-B114-AD2A4D1D7EBC}](https://github.com/user-attachments/assets/bdca8108-9021-4c0c-89b0-c774f3820aaa)
+![{7CEC80B8-2BD6-4D42-967B-4B754EABA015}](https://github.com/user-attachments/assets/341de33a-f0d9-4003-ba47-2f7fa644154d)
+
+
 
 ---
 
