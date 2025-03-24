@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayon Roy - Portfolio</title>
-    <script src="public/css/tailwindcss.css"></script>
+    <script src="tailwindcss.css"></script>
     <!-- Link to external CSS -->
     <style>
     .dark-mode {
@@ -41,7 +41,7 @@
     .dark-mode a {
         color: #93c5fd !important;
     } </style>
-    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body class="bg-white text-gray-900">
     <!-- // Header Section -->
@@ -49,14 +49,14 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
             <!-- Logo and Portfolio Text -->
             <a href="#hero" class="flex items-center space-x-4">
-                <img src="/public/img/icon/icon/logo.svg" alt="Logo" class="h-10 w-10">
+                <img src="logo.svg" alt="Logo" class="h-10 w-10">
                 <span class="text-xl font-bold text-gray-800">Ayon Roy's Portfolio</span>
             </a>
             <div class="flex items-center space-x-4 absolute top-4 right-20">
                 <!-- Dropdown Menu -->
                 <div class="relative">
                     <button id="menuButton" class="focus:outline-none">
-                        <img src="/public/img/icon/icon/menu.svg" alt="Menu Icon" class="h-9 w-6">
+                        <img src="menu.svg" alt="Menu Icon" class="h-9 w-6">
                     </button>
                     <div id="menuDropdown" class="hidden absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-md text-left opacity-80 transition duration-300">
                         <a href="#hero" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Home</a>
@@ -78,7 +78,7 @@
                 <!-- Dark Mode Toggle Button -->
                 <p> </p>
                 <button id="darkModeToggle" class="focus:outline-none">
-                    <img src="/public/img/icon/icon/moon.png" alt="Toggle Dark Mode" class="h-6 w-6">
+                    <img src="moon.png" alt="Toggle Dark Mode" class="h-6 w-6">
                 </button>
             </div>
         </div>
@@ -87,7 +87,7 @@
 <!-- Hero Section -->
     <section id="hero"
         class="h-screen flex items-center bg-cover bg-center bg-no-repeat relative" 
-        style="background-image: url('/public/img/icon/me/cover.jpg');">
+        style="background-image: url('cover.jpg');">
         <div class="absolute right-10 text-right text-gray-800 p-5 bg-white rounded-lg shadow-lg" style="width: auto; max-width: 40%; opacity: 0.8; box-shadow: black;">
             <h1 class="text-5xl font-bold mb-4">Ayon Roy</h1>
             <div id="role" class="text-2xl text-gray-800 mb-4">I am a Programmer</div>
@@ -108,7 +108,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 items-center">
                 <!-- Full Image -->
                 <div class="flex justify-center">
-                    <img src="/public/img/icon/me/profile.jpg" alt="Ayon Roy Profile Photo" class="w-full h-auto max-w-md shadow-lg">
+                    <img src="profile.jpg" alt="Ayon Roy Profile Photo" class="w-full h-auto max-w-md shadow-lg">
                 </div>
                 <!-- About Details -->
                 <div class="text-gray-800 text-left mt-6 md:mt-0 md:ml-10">
@@ -133,7 +133,7 @@
                     </ul>
                     <!-- Download CV Button -->
                     <div class="mt-6">
-                        <a href="/public/pdf/Ayon_Roy_CV.pdf" download="Ayon_Roy_CV.pdf" class="bg-sky-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-sky-700 transition duration-300">
+                        <a href="Ayon_Roy_CV.pdf" download="Ayon_Roy_CV.pdf" class="bg-sky-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-sky-700 transition duration-300">
                             Download CV
                         </a>
                     </div>
@@ -249,21 +249,21 @@
         <div class="text-gray-800 grid grid-cols-3 gap-4 mt-6">
             <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
                 <a href="https://github.com/Ay-on-Roy/GadgetEarth">
-                    <img src="/public/img/icon/projects/ecom.jpg" alt="GadgetEarth Homepage" class="rounded mb-2">
+                    <img src="ecom.jpg" alt="GadgetEarth Homepage" class="rounded mb-2">
                 </a>
                 <a href="https://github.com/Ay-on-Roy/GadgetEarth" class="text-sky-500"><b>GadgetEarth</b></a> 
                 <br>An e-commerce platform: Built using React and Django
             </div>
             <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
                 <a href="https://github.com/Ay-on-Roy/Intercity-Transit-System">
-                    <img src="/public/img/icon/projects/bus.jpg" alt="Intercity Transit Homepage" class="rounded mb-2">
+                    <img src="bus.jpg" alt="Intercity Transit Homepage" class="rounded mb-2">
                 </a>
                 <a href="https://github.com/Ay-on-Roy/Intercity-Transit-System" class="text-sky-500"><b>Intercity Transit System</b></a> 
                 <br>A bus ticketing service developed using HTML, CSS, MySQL, and JavaScript
             </div>
             <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
                 <a href="https://github.com/Ay-on-Roy/USIS-Routine-Generator">
-                    <img src="/public/img/icon/projects/usis.jpg" alt="USIS Routine Homepage" class="rounded mb-2">
+                    <img src="usis.jpg" alt="USIS Routine Homepage" class="rounded mb-2">
                 </a>
                 <a href="https://github.com/Ay-on-Roy/USIS-Routine-Generator" class="text-sky-500"><b>USIS Routine Generator</b></a> 
                 <br>A university routine generator created with HTML, CSS, MySQL, and JavaScript
@@ -420,7 +420,7 @@
             <!-- Activity 1 -->
             <div class="bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
                 <div class="flex items-center justify-center mb-4">
-                    <img src="/public/img/icon/icon/bucc.svg" alt="BUCC Logo" class="w-16 h-16">
+                    <img src="bucc.svg" alt="BUCC Logo" class="w-16 h-16">
                 </div>
                 <h3 class="text-xl font-semibold text-gray-800 mb-2">General Member</h3>
                 <p class="text-gray-600">BRAC University Computer Club (BUCC)</p>
@@ -428,7 +428,7 @@
             <!-- Activity 2 -->
             <div class="bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
                 <div class="flex items-center justify-center mb-4">
-                    <img src="/public/img/icon/icon/byso.png" alt="BYSO Logo" class="w-16 h-16">
+                    <img src="byso.png" alt="BYSO Logo" class="w-16 h-16">
                 </div>
                 <h3 class="text-xl font-semibold text-gray-800 mb-2">Volunteer</h3>
                 <p class="text-gray-600">Bangladesh Youngster Social Organization (BYSO)</p>
@@ -444,7 +444,7 @@
             <!-- Certificate 1 -->
             <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
                 <a href="https://www.life-global.org/certificate/727913ea-99fe-470f-8db7-8796ee1893fd" target="_blank">
-                    <img src="/public/img/icon/certificates/EL.jpeg" alt="Effective Leadership Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="EL.jpeg" alt="Effective Leadership Certification" class="w-full h-auto mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Effective Leadership</h3>
                     <p class="text-gray-600 mt-2">HP Life Certified</p>
                 </a>
@@ -452,7 +452,7 @@
             <!-- Certificate 2 -->
             <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
                 <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzc3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzUyMzUxOF83NzExNzM3MTczMDc0ODUzMTUyNy5wbmciLCJ1c2VybmFtZSI6IkFZT04gUk9ZIn0%3D&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4277%2FIntroduction-to-MS-Excel%2Fcertificate%2Fdownload-skillup&%24web_only=true" target="_blank">
-                    <img src="/public/img/icon/certificates/excel.jpg" alt="Introduction to MS Excel Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="excel.jpg" alt="Introduction to MS Excel Certification" class="w-full h-auto mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Introduction to MS Excel</h3>
                     <p class="text-gray-600 mt-2">Simplilearn Certified</p>
                 </a>
@@ -460,7 +460,7 @@
             <!-- Certificate 3 -->
             <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
                 <a href="https://www.mygreatlearning.com/certificate/VNTFTOXU" target="_blank">
-                    <img src="/public/img/icon/certificates/SB.jpeg" alt="Selenium Basics Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="SB.jpeg" alt="Selenium Basics Certification" class="w-full h-auto mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Selenium Basics</h3>
                     <p class="text-gray-600 mt-2">Great Learning Academy</p>
                 </a>
@@ -468,7 +468,7 @@
             <!-- Certificate 4 -->
             <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
                 <a href="https://www.udemy.com/certificate/UC-eb561803-f16e-4ced-851d-b7fdb58fd469/" target="_blank">
-                    <img src="/public/img/icon/certificates/Data Privacy.jpeg" alt="Data Privacy and Protection Auditor Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="Data Privacy.jpeg" alt="Data Privacy and Protection Auditor Certification" class="w-full h-auto mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Data Privacy and Protection Auditor (CDPPA)</h3>
                     <p class="text-gray-600 mt-2">Udemy Certified</p>
                 </a>
@@ -481,19 +481,19 @@
         <h2 class="text-gray-800 text-3xl font-bold">Hobbies</h2>
         <div class="text-gray-800 flex justify-center gap-40 mt-6">
             <div class="flex flex-col items-center">
-                <img src="/public/img/icon/hobby/coding.svg" alt="Programming" class="w-16 h-16">
+                <img src="coding.svg" alt="Programming" class="w-16 h-16">
                 <span>Programming</span>
             </div>
             <div class="flex flex-col items-center">
-                <img src="/public/img/icon/hobby/cycling.svg" alt="Riding Bicycle" class="w-16 h-16">
+                <img src="cycling.svg" alt="Riding Bicycle" class="w-16 h-16">
                 <span>Riding Bicycle</span>
             </div>
             <div class="flex flex-col items-center">
-                <img src="/public/img/icon/hobby/travelling.svg" alt="Traveling" class="w-16 h-16">
+                <img src="travelling.svg" alt="Traveling" class="w-16 h-16">
                 <span>Traveling</span>
             </div>
             <div class="flex flex-col items-center">
-                <img src="/public/img/icon/hobby/joystick.svg" alt="Gaming" class="w-16 h-16">
+                <img src="joystick.svg" alt="Gaming" class="w-16 h-16">
                 <span>Gaming</span>
             </div>
         </div>
@@ -516,13 +516,15 @@
             <!-- Video 1 -->
             <div class="shadow-lg rounded-lg overflow-hidden">
                 <iframe width="100%" height="315" 
-                    src="https://www.youtube.com/embed/KP7oMz_Otcc?si=NrhxAgGhqg0LRU11" 
+                    src="https://www.youtube.com/embed/KP7oMz_Otcc?si=_M4-0gTR_5xUqFt4"
                     title="Ceminer of Chief Astronaut of NASA - Joseph M. Acaba" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>
                 </iframe>
+
             </div>
+
             <!-- Video 2 -->
             <div class="shadow-lg rounded-lg overflow-hidden">
                 <iframe width="100%" height="315" 
@@ -593,16 +595,16 @@
             <!-- Social Media Icons -->
             <div class="flex gap-4 mt-6">
                 <a href="https://github.com/Ay-on-Roy" target="_blank">
-                    <img src="/public/img/icon/icon/github.svg" alt="GitHub" class="w-6 h-6">
+                    <img src="github.svg" alt="GitHub" class="w-6 h-6">
                 </a>
                 <a href="https://www.linkedin.com/in/ayonroy-29-ayonroy/" target="_blank">
-                    <img src="/public/img/icon/icon/linkedin.svg" alt="LinkedIn" class="w-6 h-6">
+                    <img src="linkedin.svg" alt="LinkedIn" class="w-6 h-6">
                 </a>
                 <a href="https://www.facebook.com/ayon.roy.AR" target="_blank">
-                    <img src="/public/img/icon/icon/fb.svg" alt="Facebook" class="w-6 h-6">
+                    <img src="fb.svg" alt="Facebook" class="w-6 h-6">
                 </a>
                 <a href="https://www.youtube.com/@anonymous_channel1" target="_blank">
-                    <img src="/public/img/icon/icon/youtube.svg" alt="Youtube" class="w-6 h-6">
+                    <img src="youtube.svg" alt="Youtube" class="w-6 h-6">
                 </a>
             </div>
         </div>
@@ -639,7 +641,7 @@
                 localStorage.setItem('darkMode', 'disabled');
             }
         }); </script>
-    <script src="/public/script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
