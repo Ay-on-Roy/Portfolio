@@ -13,6 +13,7 @@
     <meta property="og:image" content="https://ay-on-roy.github.io/Portfolio/profile.jpg">
     <meta property="og:url" content="https://ay-on-roy.github.io/Portfolio/">
     <meta name="twitter:card" content="summary_large_image">
+
     <script src="tailwindcss.css"></script>
     <!-- Link to external CSS -->
     <style>
@@ -162,12 +163,24 @@
                     <h3 class="text-xl font-semibold text-gray-800">Intern</h3>
                     <p class="text-sm text-gray-800 mt-2">NCC Bank, Head Office IT Division</p>
                     <p class="text-sm text-gray-800 mt-1"><i>March 2025 - Present</i></p>
+                    <button onclick="toggleDetails('intern-details')" class="mt-4 text-sky-600">Read More</button>
+                    <p id="intern-details" class="hidden text-sm text-gray-700 mt-2">I am working with a Machine Learning team to build a Fraud Detector in Fund Transfers using deep learning models like BERT and prepare our data using the SMOTE method.</p>
+                </div>
+                <!-- Global Internship -->
+                <div class="bg-gray-100 p-6 rounded-lg border-t-4 border-sky-500 shadow-md text-center max-w-xs">
+                    <h3 class="text-xl font-semibold text-gray-800">Global Internship</h3>
+                    <p class="text-sm text-gray-800 mt-2">Excelarate - <a href="https://4excelerate.org" class="text-sky-600">https://4excelerate.org</a></p>
+                    <p class="text-sm text-gray-800 mt-1"><i>March 2025 - April 2025</i></p>
+                    <button onclick="toggleDetails('global-details')" class="mt-4 text-sky-600">Read More</button>
+                    <p id="global-details" class="hidden text-sm text-gray-700 mt-2">I am working with global students on data cleaning using Python and SQL, EDA, ETA reports, making Master Table using PostgreSQL, and applying different data visualization techniques (e.g., Looker Studio).</p>
                 </div>
                 <!-- Student Tutor -->
                 <div class="bg-gray-100 p-6 rounded-lg border-t-4 border-sky-500 shadow-md text-center max-w-xs">
                     <h3 class="text-xl font-semibold text-gray-800">Student Tutor</h3>
                     <p class="text-sm text-gray-800 mt-2">BRAC University</p>
                     <p class="text-sm text-gray-800 mt-1"><i>May 2023 - October 2024</i></p>
+                    <button onclick="toggleDetails('tutor-details')" class="mt-4 text-sky-600">Read More</button>
+                    <p id="tutor-details" class="hidden text-sm text-gray-700 mt-2">I used to assist students with the fundamentals of programming, Discrete Mathematics and logic development. I also collaborated with lecturers to evaluate student assignments, verify quiz scripts, and maintain grade sheets in Excel.</p>
                 </div>
             </div>
         </div>
@@ -449,41 +462,46 @@
    <!-- Certifications Section -->
     <section id="certification" class="p-10 bg-gradient-to-r from-sky-300 to-white text-center">
         <h2 class="text-3xl font-bold mb-6 text-gray-800">Certifications</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
-            <!-- Certificate 1 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <!-- Certificate Card Template -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
                 <a href="https://www.life-global.org/certificate/727913ea-99fe-470f-8db7-8796ee1893fd" target="_blank">
-                    <img src="EL.jpeg" alt="Effective Leadership Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="EL.jpeg" alt="Effective Leadership Certification" class="w-full h-48 object-cover mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Effective Leadership</h3>
                     <p class="text-gray-600 mt-2">HP Life Certified</p>
                 </a>
             </div>
-            <!-- Certificate 2 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
                 <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzc3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzUyMzUxOF83NzExNzM3MTczMDc0ODUzMTUyNy5wbmciLCJ1c2VybmFtZSI6IkFZT04gUk9ZIn0%3D&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4277%2FIntroduction-to-MS-Excel%2Fcertificate%2Fdownload-skillup&%24web_only=true" target="_blank">
-                    <img src="excel.jpg" alt="Introduction to MS Excel Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="excel.jpg" alt="Introduction to MS Excel Certification" class="w-full h-48 object-cover mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Introduction to MS Excel</h3>
                     <p class="text-gray-600 mt-2">Simplilearn Certified</p>
                 </a>
             </div>
-            <!-- Certificate 3 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
                 <a href="https://www.mygreatlearning.com/certificate/VNTFTOXU" target="_blank">
-                    <img src="SB.jpeg" alt="Selenium Basics Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="SB.jpeg" alt="Selenium Basics Certification" class="w-full h-48 object-cover mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Selenium Basics</h3>
                     <p class="text-gray-600 mt-2">Great Learning Academy</p>
                 </a>
             </div>
-            <!-- Certificate 4 -->
-            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
                 <a href="https://www.udemy.com/certificate/UC-eb561803-f16e-4ced-851d-b7fdb58fd469/" target="_blank">
-                    <img src="Data Privacy.jpeg" alt="Data Privacy and Protection Auditor Certification" class="w-full h-auto mb-4 rounded">
+                    <img src="Data Privacy.jpeg" alt="Data Privacy and Protection Auditor Certification" class="w-full h-48 object-cover mb-4 rounded">
                     <h3 class="text-xl font-semibold text-gray-800">Data Privacy and Protection Auditor (CDPPA)</h3>
                     <p class="text-gray-600 mt-2">Udemy Certified</p>
                 </a>
             </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition duration-300">
+                <a href="https://www.datacamp.com/completed/statement-of-accomplishment/course/b42ffa7974ed5f9c518c1c45dbafccceac557f6d" target="_blank">
+                    <img src="Data Analysis.png" alt="Data Analysis in Excel Certification" class="w-full h-48 object-cover mb-4 rounded">
+                    <h3 class="text-xl font-semibold text-gray-800">Data Analysis in Excel</h3>
+                    <p class="text-gray-600 mt-2">DataCamp Certified</p>
+                </a>
+            </div>
         </div>
     </section>
+
 
     <!-- Hobbies Section -->
     <section id="hobbies" class="p-10 bg-gray-100 text-center">
