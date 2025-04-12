@@ -78,3 +78,22 @@ background-color: #f1f5f9; /* Softer background for elegance */
 .dot.bg-sky-500 {
     background-color: #93dafd;
 }
+.read-more-btn {
+    display: inline-block;
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    color: white;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.read-more-btn:hover {
+    background: linear-gradient(90deg, #2563eb, #3b82f6);
+    transform: scale(1.05);
+}
+
+.read-more-btn:active {
+    transform: scale(0.95);
+}
