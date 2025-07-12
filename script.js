@@ -264,6 +264,17 @@ const roles = ["I am a Programmer", "I am a Machine Learning Developer", "I am a
 
     // Toggle "Read More" details for experience section
     function toggleDetails(id) {
-        let details = document.getElementById(id);
-        details.style.display = details.style.display === "block" ? "none" : "block";
+        const el = document.getElementById(id);
+
+        if (el.classList.contains('expanded')) {
+            // Collapse
+            el.style.maxHeight = '0px';
+            el.style.opacity = '0';
+            el.classList.remove('expanded');
+        } else {
+            // Expand
+            el.style.maxHeight = el.scrollHeight + "px";
+            el.style.opacity = '1';
+            el.classList.add('expanded');
+        }
     }
