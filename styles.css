@@ -97,3 +97,8 @@ background-color: #f1f5f9; /* Softer background for elegance */
 .read-more-btn:active {
     transform: scale(0.95);
 }
+/* Click animation */
+.btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
