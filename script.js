@@ -1,4 +1,4 @@
-const roles = ["I am a Programmer", "I am a Machine Learning Developer", "I am a Web Developer", "I am a Photographer"];
+const roles = ["I am an Adjunct Lecturer", "I am a Programmer", "I am a Machine Learning Developer", "I am a Web Developer", "I am a Photographer"];
         let roleIndex = 0;
         function changeRole() {
             document.getElementById("role").textContent = roles[roleIndex];
