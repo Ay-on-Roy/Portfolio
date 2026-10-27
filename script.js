@@ -41,6 +41,7 @@ const roles = ["I am an Adjunct Lecturer", "I am a Programmer", "I am a Machine 
         document.getElementById("ssc").classList.add("hidden");
         document.getElementById("hsc").classList.add("hidden");
         document.getElementById("bsc").classList.add("hidden");
+        document.getElementById("msc").classList.add("hidden");
         document.getElementById(id).classList.remove("hidden");
 
     };
@@ -90,7 +91,7 @@ const roles = ["I am an Adjunct Lecturer", "I am a Programmer", "I am a Machine 
     
     // Function to toggle dropdown visibility
     function toggleDropdown(id) {
-        const sections = ['ssc', 'hsc', 'bsc'];
+        const sections = ['ssc', 'hsc', 'bsc', 'msc'];
 
         sections.forEach(section => {
             const element = document.getElementById(section);

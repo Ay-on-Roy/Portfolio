@@ -118,3 +118,33 @@ background-color: #f1f5f9; /* Softer background for elegance */
     transform: scale(0.97);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
     }
+
+
+/* Hero profile icon links */
+.profile-icon-link {
+    width: 46px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.profile-icon-link:hover {
+    transform: translateY(-3px) scale(1.06);
+    box-shadow: 0 7px 16px rgba(0, 0, 0, 0.28);
+}
+.profile-icon {
+    width: 27px;
+    height: 27px;
+    object-fit: contain;
+}
+.profile-icon-bracu {
+    width: 32px;
+    height: 32px;
+}
+.dark-mode .profile-icon-link {
+    background: rgba(255, 255, 255, 0.9);
+}
